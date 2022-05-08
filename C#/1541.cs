@@ -34,10 +34,6 @@ namespace ConsoleApp1
                     }
                     else
                     {
-                        // 50 -40 + 10
-                        // 50 
-                        // 40 + 10
-                        // +50 
                         if (idx != 0)
                         {
                             answer -= int.Parse(nums[idx]);
