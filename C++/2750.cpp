@@ -5,6 +5,8 @@ using namespace std;
 
 vector<int> vNums;
 
+
+// sort() 사용하지말고 구현해보기
 int main()
 {
 	// 입력
