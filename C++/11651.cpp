@@ -8,14 +8,14 @@ vector<pair<int, int>> vCoord;
 
 bool compare(pair<int, int> _a, pair<int, int> _b)
 {
-	// x좌표가 같으면 y좌표를 비교
-	if (_a.first == _b.first)
+	// y좌표가 같으면 x좌표를 비교
+	if (_a.second == _b.second)
 	{
-		return _a.second < _b.second;
+		return _a.first < _b.first;
 	}
 	else
 	{
-		return _a.first < _b.first;
+		return _a.second < _b.second;
 	}
 }
 
@@ -32,7 +32,7 @@ int main()
 		vCoord.push_back(coord);
 	}
 
-	// 오름차순 정렬
+	// 내림차순 정렬
 	sort(vCoord.begin(), vCoord.end(), compare);
 
 	// 출력
