@@ -18,7 +18,7 @@ int main()
 	cin >> num;
 
 	// 각 자릿수를 vector에 저장
-	while (num > 0)sa
+	while (num > 0)
 	{
 		int units = num % 10;
 		vNum.push_back(units);
