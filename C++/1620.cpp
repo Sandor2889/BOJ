@@ -15,6 +15,7 @@ int main()
     string input;
     cin >> n >> m;
 
+    // 포켓몬 입력
     for (int idx = 0; idx < n; idx++)
     {
         cin >> input;
@@ -27,6 +28,7 @@ int main()
     {
         cin >> input;
 
+        // 입력 타입이 string과 int 일때 구분하여 출력
         if ((input[0] >= 'A' && input[0] <= 'Z') || (input[0] >= 'a' && input[0] <= 'z'))
         {
             cout << poketStr[input] << '\n';
