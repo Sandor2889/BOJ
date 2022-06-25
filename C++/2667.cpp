@@ -23,7 +23,6 @@ void bfs(int _y, int _x)
 	queue<pair<int, int>> q;
 	q.push({ _x, _y });
 	visited[_y][_x] = true;
-	int width = 1;
 
 	while (!q.empty())
 	{
