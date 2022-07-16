@@ -7,7 +7,6 @@ using namespace std;
 
 int n, m;
 int parent, child;
-int flag;
 int weight;
 
 bool visited[MAX];
